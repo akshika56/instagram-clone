@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <i class="fas fa-search"></i>
+            </div>
+            <nav class="nav-icons">
+                <i class="fas fa-home"></i>
+                <i class="far fa-paper-plane"></i>
+                <i class="far fa-plus-square"></i>
+                <i class="far fa-compass"></i>
+                <i class="far fa-heart"></i>
+                <div class="profile-pic">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b647?w=50&h=50&fit=crop&crop=face" alt="Profile">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- Stories Section -->
+            <section class="stories">
+                <div class="story">
+                    <div class="story-avatar">
+                        <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=80&h=80&fit=crop&crop=face" alt="Your story">
+                    </div>
+                    <span>Your Story</span>
+                </div>
+                <div class="story">
+                    <div class="story-avatar">
+                        <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=80&h=80&fit=crop&crop=face" alt="john_doe">
+                    </div>
+                    <span>john_doe</span>
+                </div>
+                <div class="story">
+                    <div class="story-avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face" alt="sarah_j">
+                    </div>
+                    <span>sarah_j</span>
+                </div>
+                <div class="story">
+                    <div class="story-avatar">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b647?w=80&h=80&fit=crop&crop=face" alt="mike_wilson">
+                    </div>
+                    <span>mike_wilson</span>
+                </div>
+                <div class="story">
+                    <div class="story-avatar">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="emma_stone">
+                    </div>
+                    <span>emma_stone</span>
+                </div>
+            </section>
+
+            <!-- Posts Feed -->
+            <section class="posts-feed">
+                <!-- Post 1 -->
+                <article class="post">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=40&h=40&fit=crop&crop=face" alt="john_doe" class="post-avatar">
+                            <span class="username">john_doe</span>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=600&fit=crop" alt="Post image">
+                    </div>
+                    <div class="post-actions">
+                        <div class="actions-left">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <i class="far fa-bookmark"></i>
+                    </div>
+                    <div class="post-likes">
+                        <strong>1,234 likes</strong>
+                    </div>
+                    <div class="post-caption">
+                        <span class="username">john_doe</span>
+                        Beautiful sunset today! #photography #nature
+                    </div>
+                    <div class="post-comments">
+                        <span class="view-comments">View all 23 comments</span>
+                        <div class="comment">
+                            <span class="username">sarah_j</span>
+                            Amazing shot! 📸
+                        </div>
+                    </div>
+                    <div class="post-time">2 HOURS AGO</div>
+                </article>
+
+                <!-- Post 2 -->
+                <article class="post">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b647?w=40&h=40&fit=crop&crop=face" alt="sarah_j" class="post-avatar">
+                            <span class="username">sarah_j</span>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=600&fit=crop" alt="Post image">
+                    </div>
+                    <div class="post-actions">
+                        <div class="actions-left">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <i class="far fa-bookmark"></i>
+                    </div>
+                    <div class="post-likes">
+                        <strong>856 likes</strong>
+                    </div>
+                    <div class="post-caption">
+                        <span class="username">sarah_j</span>
+                        Working late again... 💻 #coding #developer
+                    </div>
+                    <div class="post-comments">
+                        <span class="view-comments">View all 12 comments</span>
+                        <div class="comment">
+                            <span class="username">mike_wilson</span>
+                            Keep grinding! 💪
+                        </div>
+                    </div>
+                    <div class="post-time">4 HOURS AGO</div>
+                </article>
+
+                <!-- Post 3 -->
+                <article class="post">
+                    <div class="post-header">
+                        <div class="post-user">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face" alt="mike_wilson" class="post-avatar">
+                            <span class="username">mike_wilson</span>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=600&h=600&fit=crop" alt="Post image">
+                    </div>
+                    <div class="post-actions">
+                        <div class="actions-left">
+                            <i class="far fa-heart"></i>
+                            <i class="far fa-comment"></i>
+                            <i class="far fa-paper-plane"></i>
+                        </div>
+                        <i class="far fa-bookmark"></i>
+                    </div>
+                    <div class="post-likes">
+                        <strong>2,341 likes</strong>
+                    </div>
+                    <div class="post-caption">
+                        <span class="username">mike_wilson</span>
+                        My cat is the best coding companion 🐱 #catsofinstagram #pets
+                    </div>
+                    <div class="post-comments">
+                        <span class="view-comments">View all 45 comments</span>
+                        <div class="comment">
+                            <span class="username">emma_stone</span>
+                            So cute! 😍
+                        </div>
+                    </div>
+                    <div class="post-time">6 HOURS AGO</div>
+                </article>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
